@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-worker
+  title: Rajua
+  description: A static HTML website. Just like the good old days.
+  links:
+    - url: https://utkarshneo.github.io/react-worker/
+      title: Live website
+  annotations:
+    github.com/project-slug: utkarshneo/react-worker
+spec:
+  type: website
+  owner: engineering
+  lifecycle: experimental
